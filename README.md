@@ -106,9 +106,9 @@ Nothing
 
 ---
 
-**注册表模板文件示例内容：**
+**注册表文件示例内容：**
 
-**`reg_templates/installRegister.reg`:**
+**`installRegister.reg`:**
 ```reg
 Windows Registry Editor Version 5.00
 
