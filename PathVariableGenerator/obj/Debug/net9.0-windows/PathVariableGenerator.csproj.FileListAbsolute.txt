@@ -1,0 +1,14 @@
+E:\VSproject\test_grpc\PathVariableGenerator\bin\Debug\net9.0-windows\PathVariableGenerator.exe
+E:\VSproject\test_grpc\PathVariableGenerator\bin\Debug\net9.0-windows\PathVariableGenerator.deps.json
+E:\VSproject\test_grpc\PathVariableGenerator\bin\Debug\net9.0-windows\PathVariableGenerator.runtimeconfig.json
+E:\VSproject\test_grpc\PathVariableGenerator\bin\Debug\net9.0-windows\PathVariableGenerator.dll
+E:\VSproject\test_grpc\PathVariableGenerator\bin\Debug\net9.0-windows\PathVariableGenerator.pdb
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\PathVariableGenerator.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\PathVariableGenerator.AssemblyInfoInputs.cache
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\PathVariableGenerator.AssemblyInfo.cs
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\PathVariableGenerator.csproj.CoreCompileInputs.cache
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\PathVariableGenerator.dll
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\refint\PathVariableGenerator.dll
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\PathVariableGenerator.pdb
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\PathVariableGenerator.genruntimeconfig.cache
+E:\VSproject\test_grpc\PathVariableGenerator\obj\Debug\net9.0-windows\ref\PathVariableGenerator.dll
