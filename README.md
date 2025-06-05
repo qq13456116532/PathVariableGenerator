@@ -1,5 +1,7 @@
 # PathVariableGenerator (环境变量自动生成器)
 
+[English Version](./README-en.md)
+
 一款小巧实用的 Windows 工具，允许用户通过文件夹的右键快捷菜单，快速将该文件夹路径添加到系统的 `Path` 环境变量中。本工具使用 C# 和 .NET 构建。
 
 ## ✨ 功能特性
@@ -22,13 +24,13 @@
 * Git (用于克隆仓库)。
 * Visual Studio Code (推荐) 或其他支持 .NET 项目的编辑器/IDE。
 
-## 🛠️ 如何编译 (供开发者)
+## 🛠️ 如何编译 
 
 1.  克隆本仓库到您的本地计算机：
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/PathVariableGenerator.git](https://github.com/YOUR_USERNAME/PathVariableGenerator.git)
+    git clone [https://github.com/qq13456116532/PathVariableGenerator](https://github.com/qq13456116532/PathVariableGenerator)
     ```
-    (请将 `YOUR_USERNAME` 替换为您的 GitHub 用户名)
+  
 2.  进入项目目录：
     ```bash
     cd PathVariableGenerator
@@ -37,13 +39,12 @@
     ```bash
     dotnet build -c Release
     ```
-    编译成功后, 可执行文件 `PathVariableGenerator.exe` 会生成在项目的 `bin/Release/net9.0-windows/` (具体路径取决于您的目标框架) 目录下。
+    编译成功后, 可执行文件 `PathVariableGenerator.exe` 会生成在项目的 `bin/Release/net9.0-windows/`目录下。
 
 ## ⚙️ 安装与使用
 
 1.  **获取程序：**
-    * **选项 A (推荐)：** 前往本项目的 [GitHub Releases 页面](https://github.com/YOUR_USERNAME/PathVariableGenerator/releases) (您需要先创建 Release 并上传预编译文件) 下载最新的 `PathVariableGenerator.exe`。
-    * **选项 B：** 按照上面的 "如何编译" 步骤自行编译得到 `PathVariableGenerator.exe`。
+    按照上面的 "如何编译" 步骤自行编译得到 `PathVariableGenerator.exe`。
 
 2.  **放置程序：**
     将获取到的 `PathVariableGenerator.exe` 文件复制到一个**稳定且永久**的存放位置。例如：
@@ -52,7 +53,7 @@
     **(重要：不要直接使用 `bin\Release` 或 `bin\Debug` 目录下的文件作为最终部署路径，因为这些路径可能会在您清理或重新编译项目时改变或被删除。)**
 
 3.  **配置注册表文件：**
-    本仓库的 `reg_templates` 目录下提供了两个注册表模板文件：
+    本仓库的提供了两个注册表文件 `.reg`：
     * `installRegister.reg` (用于添加右键菜单)
     * `uninstallRegister.reg` (用于移除右键菜单)
 
@@ -69,7 +70,7 @@
     双击编辑并保存好的 `installRegister.reg` 文件。系统会询问您是否确认要将信息添加到注册表，请选择 "是 (Yes)"。
 
 5.  **使用：**
-    现在，当您右键单击任意一个文件夹时，应该能看到一个名为 "添加到系统Path (管理员)" (或您在 `.reg` 文件中设置的文本) 的选项，并可能带有一个图标。点击该选项，程序会请求管理员权限 (UAC 弹窗)，授权后即可将该文件夹路径添加到系统 Path。
+    现在，当您右键单击任意一个文件夹时，应该能看到一个名为 "添加到系统Path (管理员)" 的选项，并可能带有一个图标。点击该选项，程序会请求管理员权限 (UAC 弹窗)，授权后即可将该文件夹路径添加到系统 Path。
 
 ## 🗑️ 卸载
 
@@ -86,7 +87,7 @@
     * `PathVariableGenerator.csproj`: 项目文件。
     * `Program.cs`:主要的 C# 源代码。
     * `app.manifest`: 应用程序清单文件 (用于请求管理员权限等)。
-    * `app_icon.ico` (或类似名称): 应用程序图标文件。
+    * `app_icon.ico`: 应用程序图标文件。
 * `*.reg*`: 包含注册表文件模板。
     * `installRegister.reg`: 添加右键菜单的模板。
     * `uninstallRegister.reg`: 移除右键菜单的模板。

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PathVariableGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31bdb49653ca73c55b777402b02705bf139f7544")]
 [assembly: System.Reflection.AssemblyProductAttribute("PathVariableGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PathVariableGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
